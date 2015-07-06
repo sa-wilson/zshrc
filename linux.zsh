@@ -19,6 +19,8 @@ fi
 alias up=" nmcli con up id"
 alias down=" nmcli con down id"
 
+alias less=' less -R'
+
 LSB_DISTRIBUTOR=`lsb_release -i -s`
 
 # debian and ubuntu specific aliases
