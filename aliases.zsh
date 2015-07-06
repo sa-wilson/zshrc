@@ -28,9 +28,6 @@ alias la=' myls -lA'
 alias v=" clear; ll -gh"    # standard directory view
 alias vs=" v **/*(.)"         # show all files in all subdirs plain in a list
 
-alias more=' more -R'
-alias less=' less -R'
-
 alias p=' ps aux | grep'
 alias g='git'
 alias b='brew'
