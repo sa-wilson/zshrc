@@ -4,3 +4,6 @@
 [submodule "dircolors-solarized"]
 	path = dircolors-solarized
 	url = git://github.com/seebi/dircolors-solarized.git
+[submodule "dircolors-zenburn"]
+	path = dircolors-zenburn
+	url = https://github.com/ivoarch/dircolors-zenburn

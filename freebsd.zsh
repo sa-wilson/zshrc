@@ -21,7 +21,7 @@ export LSCOLORS="gxfxcxdxbxegedabagacad"
 export FPATH=/usr/local/share/zsh-completions:/usr/local/share/zsh/site-functions:$FPATH
 
 # activate gls colors
-export ZSH_DIRCOLORS="$ZSH_CONFIG/dircolors-solarized/dircolors.256dark"
+export ZSH_DIRCOLORS="$ZSH_CONFIG/dircolors-zenburn/dircolors"
 if [[ -a $ZSH_DIRCOLORS ]]; then
     if [[ "$TERM" == *256* ]]; then
         which gdircolors > /dev/null && eval "`gdircolors -b $ZSH_DIRCOLORS`"
